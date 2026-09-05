@@ -507,13 +507,20 @@ print(x)  # Output: Global (found in Global scope)
 
 ## Practice Challenges
 
-1. Create a function using `*args` that calculates the average of any number of arguments
-2. Write a function using `**kwargs` that builds a dictionary of settings
-3. Use `lambda` with `sorted()` to sort a list of dictionaries by a specific key
-4. Use `map()` to convert a list of temperatures from Celsius to Fahrenheit
-5. Use `filter()` to find all prime numbers in a list
-6. Write a recursive function to flatten a nested list
-7. Demonstrate the difference between local and global scope with an example
+| # | Challenge | Type | Concept | Implementation File |
+|---|-----------|------|---------|---------------------|
+| 1 | Create a function using `*args` that accepts any number of values and returns their total. | *args | Variable Arguments | [accept_list_sum_fun.ipynb](accept_list_sum_fun.ipynb) |
+| 2 | Create a function using `*args` that returns the largest supplied number. | *args | Variable Arguments | [fun_max_number.ipynb](fun_max_number.ipynb) |
+| 3 | Create `create_profile(**kwargs)` that accepts dynamic user information and prints all provided attributes. | **kwargs | Keyword Arguments | [accept_and_display_fun.ipynb](accept_and_display_fun.ipynb) |
+| 4 | Create a function that accepts another function as an argument. Example: `calculate(add, 10, 20)` and `calculate(multiply, 10, 20)` | Higher-Order Functions | Functions as Arguments | [add_fun.ipynb](add_fun.ipynb) |
+| 5 | Create a lambda function for calculating the square of a number. | Lambda | Anonymous Functions | [lambda_square.ipynb](lambda_square.ipynb) |
+| 6 | Use lambda with `map()` to square `[1, 2, 3, 4, 5, 6]`. | map() & Lambda | Data Transformation | [map_square.ipynb](map_square.ipynb) |
+| 7 | Use lambda with `filter()` to extract even numbers from a list. | filter() & Lambda | Data Filtering | [filter_even_numbers.ipynb](filter_even_numbers.ipynb) |
+| 8 | Write a recursive function to calculate factorial. | Recursion | Self-Referential Functions | [fact_fun.ipynb](fact_fun.ipynb) |
+| 9 | Write a recursive function to calculate `1 + 2 + 3 + ... + n`. | Recursion | Self-Referential Functions | [recursive_sum_series.ipynb](recursive_sum_series.ipynb) |
+| 10 | Write a recursive function to generate the Fibonacci sequence or calculate the nth Fibonacci number. | Recursion | Self-Referential Functions | [recursive_fibonacci.ipynb](recursive_fibonacci.ipynb) |
+| 11 | Demonstrate local and global variable scope using a small program. | Scope | Variable Scope | [scope_demonstration.ipynb](scope_demonstration.ipynb) |
+| 12 | Create a mini calculator where each mathematical operation is implemented as a separate function and a main function controls the program. | Functions & Control Flow | Function Composition | [mini_calculator.ipynb](mini_calculator.ipynb) |
 
 ---
 
