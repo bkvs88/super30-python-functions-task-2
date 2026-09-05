@@ -509,18 +509,18 @@ print(x)  # Output: Global (found in Global scope)
 
 | # | Challenge | Type | Concept | Implementation File |
 |---|-----------|------|---------|---------------------|
-| 1 | Create a function using `*args` that accepts any number of values and returns their total. | *args | Variable Arguments | [accept_list_sum_fun.ipynb](accept_list_sum_fun.ipynb) |
-| 2 | Create a function using `*args` that returns the largest supplied number. | *args | Variable Arguments | [fun_max_number.ipynb](fun_max_number.ipynb) |
-| 3 | Create `create_profile(**kwargs)` that accepts dynamic user information and prints all provided attributes. | **kwargs | Keyword Arguments | [accept_and_display_fun.ipynb](accept_and_display_fun.ipynb) |
-| 4 | Create a function that accepts another function as an argument. Example: `calculate(add, 10, 20)` and `calculate(multiply, 10, 20)` | Higher-Order Functions | Functions as Arguments | [add_fun.ipynb](add_fun.ipynb) |
-| 5 | Create a lambda function for calculating the square of a number. | Lambda | Anonymous Functions | [lambda_square.ipynb](lambda_square.ipynb) |
-| 6 | Use lambda with `map()` to square `[1, 2, 3, 4, 5, 6]`. | map() & Lambda | Data Transformation | [map_square.ipynb](map_square.ipynb) |
-| 7 | Use lambda with `filter()` to extract even numbers from a list. | filter() & Lambda | Data Filtering | [filter_even_numbers.ipynb](filter_even_numbers.ipynb) |
-| 8 | Write a recursive function to calculate factorial. | Recursion | Self-Referential Functions | [fact_fun.ipynb](fact_fun.ipynb) |
-| 9 | Write a recursive function to calculate `1 + 2 + 3 + ... + n`. | Recursion | Self-Referential Functions | [recursive_sum_series.ipynb](recursive_sum_series.ipynb) |
-| 10 | Write a recursive function to generate the Fibonacci sequence or calculate the nth Fibonacci number. | Recursion | Self-Referential Functions | [recursive_fibonacci.ipynb](recursive_fibonacci.ipynb) |
-| 11 | Demonstrate local and global variable scope using a small program. | Scope | Variable Scope | [scope_demonstration.ipynb](scope_demonstration.ipynb) |
-| 12 | Create a mini calculator where each mathematical operation is implemented as a separate function and a main function controls the program. | Functions & Control Flow | Function Composition | [mini_calculator.ipynb](mini_calculator.ipynb) |
+| 1 | Create a function using `*args` that accepts any number of values and returns their total. | *args | Variable Arguments | [Simple_fun_args.ipynb](Simple_fun_args.ipynb) |
+| 2 | Create a function using `*args` that returns the largest supplied number. | *args | Variable Arguments | [largest_number_args_fun.ipynb](largest_number_args_fun.ipynb) |
+| 3 | Create `create_profile(**kwargs)` that accepts dynamic user information and prints all provided attributes. | **kwargs | Keyword Arguments | [dynamic_user_info_fun.ipynb](dynamic_user_info_fun.ipynb) |
+| 4 | Create a function that accepts another function as an argument. Example: `calculate(add, 10, 20)` and `calculate(multiply, 10, 20)` | Higher-Order Functions | Functions as Arguments | [function_in_function.ipynb](function_in_function.ipynb) |
+| 5 | Create a lambda function for calculating the square of a number. | Lambda | Anonymous Functions | [lambda_func.ipynb](lambda_func.ipynb) |
+| 6 | Use lambda with `map()` to square `[1, 2, 3, 4, 5, 6]`. | map() & Lambda | Data Transformation | [square_using_map_lambda.ipynb](square_using_map_lambda.ipynb) |
+| 7 | Use lambda with `filter()` to extract even numbers from a list. | filter() & Lambda | Data Filtering | [lambda_even_fun.ipynb](lambda_even_fun.ipynb) |
+| 8 | Write a recursive function to calculate factorial. | Recursion | Self-Referential Functions | [lambda_factorial.ipynb](lambda_factorial.ipynb) |
+| 9 | Write a recursive function to calculate `1 + 2 + 3 + ... + n`. | Recursion | Self-Referential Functions | [Recursive_addition.ipynb](Recursive_addition.ipynb) |
+| 10 | Write a recursive function to generate the Fibonacci sequence or calculate the nth Fibonacci number. | Recursion | Self-Referential Functions | [finbonaci_number.ipynb](finbonaci_number.ipynb) |
+| 11 | Demonstrate local and global variable scope using a small program. | Scope | Variable Scope | [local_and_global_vairiable.ipynb](local_and_global_vairiable.ipynb) |
+| 12 | Create a mini calculator where each mathematical operation is implemented as a separate function and a main function controls the program. | Functions & Control Flow | Function Composition | [calculator_using_func.ipynb](calculator_using_func.ipynb) |
 
 ---
 
